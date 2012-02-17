@@ -1,0 +1,50 @@
+# channels are stim0;stim90;current
+# offset; waveform type	; duration	; padding	; repeats	; frequency	; channels	; amplitude
+
+#tuning curve
+
+0.0		;ramp			;.5			;1.0		; 1			;.45,.05	;0,1		;1,1
+end		;ramp			;.5			;1.0		;1			;.45,.05	;0,1		;1,-1
+end		;ramp			;.5			;1.0		;1			;.45,.05	;0,1		;-1,-1
+end		;ramp			;.5			;1.0		;1			;.45,.05	;0,1		;-1,1
+end		;dc				;1.5		;0			;1			;0			;0,1,2		;0
+
+#current injection
+end		;wn				;20			;.5			;3			;5,300		;2			;1
+end		;dc				;.5			;0			;1			;0			;0,1,2		;0
+end		;dc				;.5			;.5			;1			;0			;2			;.2
+end		;dc				;.5			;.5			;1			;0			;2			;-.2
+end		;dc				;.5			;.5			;1			;0			;2			;.4
+end		;dc				;.5			;.5			;1			;0			;2			;-.4
+end		;dc				;.5			;.5			;1			;0			;2			;.8
+end		;dc				;.5			;.5			;1			;0			;2			;-.8
+end		;dc				;.5			;.5			;1			;0			;2			;1.6
+end		;dc				;.5			;.5			;1			;0			;2			;-1.6
+end		;dc				;.5			;.5			;1			;0			;2			;2.4
+end		;dc				;.5			;.5			;1			;0			;2			;-2.4
+end		;dc				;1.5		;0			;1			;0			;0,1,2		;0
+
+
+#air current
+end		;wn				;20			;.5			;3			;5,300		;0,1		;1
+end		;dc				;1.5		;0			;1			;0			;0,1,2		;0
+end		;pulse			;3.0		;0			;1			;.01,.99	;0,1		;.5,0
+end		;dc				;2.0		;0			;1			;0			;0,1,2		;0
+end		;pulse			;1.5		;0			;1			;.01,.49	;0,1		;.5,0
+end		;dc				;2.0		;0			;1			;0			;0,1,2		;0
+end		;pulse			;.75		;0			;1			;.01,.24	;0,1		;.5,0
+end		;dc				;2.0		;0			;1			;0			;0,1,2		;0
+end		;pulse			;.375		;0			;1			;.01,.115	;0,1		;.5,0
+end		;dc				;2.0		;0			;1			;0			;0,1,2		;0
+
+#stochastic resonance
+end		;wn				;20			;0			;1			;5,300		;2			;1
+last	;wn				;20			;0			;1			;5,300		;0,1		;.1
+end		;dc				;1.5		;0			;1			;0			;0,1,2		;0
+
+
+
+
+
+
+

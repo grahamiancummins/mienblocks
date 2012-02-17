@@ -1,0 +1,30 @@
+# offset; waveform type	; duration	; padding	; repeats	; frequency	; channels	; amplitude
+
+#Sequential sine waves, superpositions of sine wave pairs, then white noise
+
+0.0		;ssw		;340.5		;0.5		;1		;5,20,1,20,150,5,150,250,10,250,525,25		;0		;1		
+end		;sin		;5			;0.5		;1		;10											;0		;1
+last	;sin		;5			;0.5		;1		;20											;0		;1
+end		;sin		;5			;0.5		;1		;10											;0		;1
+last	;sin		;5			;0.5		;1		;50											;0		;1
+end		;sin		;5			;0.5		;1		;10											;0		;1
+last	;sin		;5			;0.5		;1		;100										;0		;1
+end		;sin		;5			;0.5		;1		;10											;0		;1
+last	;sin		;5			;0.5		;1		;200										;0		;1
+end		;sin		;5			;0.5		;1		;10											;0		;1
+last	;sin		;5			;0.5		;1		;400										;0		;1
+end		;sin		;5			;0.5		;1		;50											;0		;1
+last	;sin		;5			;0.5		;1		;60											;0		;1
+end		;sin		;5			;0.5		;1		;50											;0		;1
+last	;sin		;5			;0.5		;1		;100										;0		;1
+end		;sin		;5			;0.5		;1		;50											;0		;1
+last	;sin		;5			;0.5		;1		;200										;0		;1
+end		;sin		;5			;0.5		;1		;50											;0		;1
+last	;sin		;5			;0.5		;1		;400										;0		;1
+end		;sin		;5			;0.5		;1		;100										;0		;1
+last	;sin		;5			;0.5		;1		;110										;0		;1
+end		;sin		;5			;0.5		;1		;100										;0		;1
+last	;sin		;5			;0.5		;1		;200										;0		;1
+end		;sin		;5			;0.5		;1		;100										;0		;1
+last	;sin		;5			;0.5		;1		;400										;0		;1
+end		;wn			;600		;0.5		;1		;5,500										;0		;10	

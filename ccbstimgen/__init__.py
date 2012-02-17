@@ -1,0 +1,2 @@
+DESCRIPTION="Stimulus generation macros used for building 2D directional air current stimuli. Developed at the Center for Computational Biology, Montana State University, for use in cricket cercal system physiology research."
+DSP=['common', 'tests']
